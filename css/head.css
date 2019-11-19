@@ -1,0 +1,63 @@
+.head{
+	width:100%;height:100vh;overflow: hidden;
+}
+.head_img{
+	width:100%;height:100vh;background:url("../img/bg1.jpg") no-repeat center;background-size: cover;transition: transform 0.5s,background 0.2s;opacity: 0.5;
+}
+.head_img div{
+	width:100%;height: 100vh;background-color: rgba(255,255,255,0.45);
+}
+.head .head_text{
+	width:100%;position: absolute;top:10%;left:0;text-align: center;color:#2c3e50;
+}
+.head .anniu{
+	display: inline-block;
+	width:10vw;
+	height:6vh;
+	line-height: 6vh;
+	border:1px solid #2c3e50;
+	border-radius: 3px;
+	margin:0 1%;
+	cursor: pointer;
+	font-size: 1vw;
+	transform: translateY(30px);
+	opacity:0;
+	animation: bottom_top 1s forwards;
+
+}
+
+header{
+	width:100%;height:72px;background-color:#2c3e50;z-index: 2;position: relative;
+}
+header>div{
+	line-height: 72px;
+	color:#fff;
+	display: inline-block;
+}
+header .leibiao{
+	float:right;
+	margin-right: 6%;
+}
+header .leibiao ul{
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+header .leibiao li{
+	float: left;
+	margin-left:24px;
+	font-size: 15px;
+	cursor: pointer;
+	transition: color 0.5s;
+}
+header .leibiao li:hover{
+	color:#6fbcab;
+}
+.me_img{
+	width:220px;
+	height:220px;
+	/*border:0.2vw solid #2c3e50;*/
+	border-radius: 50%;
+	margin:5% auto 3% auto;
+	opacity: 0.8;
+}
