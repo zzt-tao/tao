@@ -39,3 +39,20 @@ ssh-keygen -t rsa -C '邮箱'
 	title： 仓库名
 	Key： id_rsa.pub 的内容
 ```
+
+
+
+# 工作流程
+1. 初始化本地仓库
+2. 跟远程仓库建立连接
+	git remote add 远程仓库的别名(origin) 远程地址
+	git remote add origin git@github.com:lizelong/ceshi.git
+3. 开发模块
+4. 先添加所有文件
+	git add .
+5. 提交到本地仓库
+	git commit -m '添加index.html'
+
+# github pages
+目的： 为了更方便的查看HTML文件解析后的内容
+>>>>>>> sss
