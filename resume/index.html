@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>个人简历</title>
+	<link rel="stylesheet" href="./css/head.css">
+	<link rel="stylesheet" href="./css/zhuti.css">
+	<style>
+		html,body{
+			height: 100%;
+		}
+		body{
+			margin:0;
+			background-color: #fefefe;
+			transition: scroll-top 5s;
+		}
+		@keyframes bottom_top{
+			form{transform: translateY(30px);opacity:0;}
+			to{transform: translateY(0px);opacity:1;}
+		}
+		@keyframes img_Bigger{
+			0%{
+		        opacity: 0.5;
+		        transform: scale(1);
+		    }
+		    45%{
+		        opacity: 1;
+		        transform: scale(1.2);
+		    }
+		    90%{
+		        opacity: 0.5;
+		        transform: scale(1);
+		    }
+		    100%{
+		    	opacity: 0.5;
+		        transform: scale(1);
+		    }
+		}
+
+		.me_img{
+			width:15vw;
+			height:auto;
+			border:0.2vw solid #2c3e50;
+			border-radius: 50%;
+			margin:3% auto;
+		}
+
+		.head_text .donghua{
+			transform: translateY(30px);
+			opacity:0;
+			animation: bottom_top 0.8s forwards;
+		}
+	</style>
+</head>
+<body>
+	<div class="head">
+		<div class="head_img">
+			<div></div>
+		</div>
+		<div class="head_text">
+			<img class="me_img donghua" src="./img/004.jpg"></img>
+			<div class="donghua" style="font-size: 3.5vw;animation-delay:0.4s;">你 好, 我 叫 张 梓 涛</div>
+			<div class="donghua" style="font-size: 1.6vw;font-weight: 100;margin:1% auto;animation-delay:0.8s;">一位极具潜力的前端工程师</div>
+			<div style="margin-top: 2.5%;animation-delay:1.2s;" class="donghua"> 
+				<div class="anniu" style="background-color:#2c3e50;color:#fff;">关 于 我</div>
+				<div class="anniu" style="background-color:#fff;">我 的 作 品</div>
+			</div>
+		</div>
+	</div>
+
+	<header>
+		<div style="font-size:28px;font-weight: 900;margin-left:6%;">T a o</div>
+		<div class="leibiao">
+			<ul>
+				<li>关于我</li><!-- 姓名、学校、生日、座右铭和简介 -->
+				<li>求职意向</li>
+				<li>我的经历</li>
+				<li>技术掌握</li>
+				<li>我的作品</li>
+				<li>联系方式</li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="zhuti">
+
+		<div class="modular">
+			<div class="modular_head">关于我</div><hr>
+			<img class="me_img donghua" src="./img/004.jpg"></img>
+			<div class="jianjie donghua">
+				<p style="text-indent:2em;">
+				我叫张梓涛，20岁，出生在广东省汕头市。毕业于广东农工商职业技术学院，就读计算机网络专业。在学校里，我开始接触网页
+				开发，并对此产生了浓厚的兴趣。除了在学校中按照课程学习外，也自学了很多关于前端的知识，希望未来能在IT行业中成为一
+				名优秀的前端开发工程师。</p>
+			</div>
+		</div>
+
+		<div class="modular" style="background-color: #eee;">
+			<div class="modular_head">求职意向</div>
+			<div class="job_wanted">
+				<div class="intention">
+					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<div>网页前端开发</div>
+				</div>
+				<div class="intention">
+					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<div>H5页面制作</div>
+				</div>
+				<div class="intention">
+					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<div>微信小程序开发</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="modular">
+			<div class="modular_head">我的经历</div>
+			<div class="jingli">
+				<div class="neirong">
+					<div class="left"></div>
+				</div>
+
+				<div class="neirong">
+					<div class="right"></div>
+				</div>
+
+				<div class="neirong">
+					<div class="left"></div>
+				</div>
+
+				<div class="neirong">
+					<div class="right"></div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="modular"  style="background-color: #eee;" id="zhang">
+			<div class="modular_head">技术掌握</div>
+			<div class="jishu">
+				<div class="master">
+					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<div>HTML5+CSS3</div>
+				</div>
+				<div class="master">
+					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<div>Vue</div>
+				</div>
+				<div class="master">
+					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<div>微信小程序开发</div>
+				</div>
+				<div class="master">
+					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<div>Jq、Bootstrap、Layui</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modular">
+			<div class="modular_head">我的作品</div>
+			<div class="job_wanted">
+				<div class="intention">
+					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<div>觅酷平台</div>
+				</div>
+				<div class="intention">
+					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<div>酷云</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modular"  style="background-color: #eee;">
+			<div class="modular_head">联系方式</div>
+			
+		</div>
+
+</body>
+<script>
+	
+	!(function(){
+		var head_img =  document.getElementsByClassName("head_img")[0];
+		var i=1;
+		var index = setInterval(function(){ 
+			i++;
+			head_img.style.backgroundImage = "url('./img/00"+i+".jpg')";
+			i=i<3?i:0;
+		},10000);
+		setTimeout(function(){
+			head_img.style.animation="img_Bigger 10s infinite";
+		},1000);
+		var head =  document.getElementsByTagName("header")[0];
+		var doc = document.documentElement;
+		document.body.onscroll=function(){
+			if(doc.scrollTop >= doc.offsetHeight){
+				head.style.cssText="position:fixed;top:0;";
+			}else{
+				head.style.cssText="";
+			}
+			if(doc.scrollTop >= 757){
+				document.getElementsByClassName("modular")[0].className="modular active";
+			}else if(doc.scrollTop >= 1437){
+				document.getElementsByClassName("modular")[1].className="modular active";
+			}else if(doc.scrollTop >= 2061){
+				document.getElementsByClassName("modular")[2].className="modular active";
+			}else if(doc.scrollTop >= 2923){
+				document.getElementsByClassName("modular")[3].className="modular active";
+			}else if(doc.scrollTop >= 3555){
+				document.getElementsByClassName("modular")[4].className="modular active";
+			}else if(doc.scrollTop >= 3800){
+				document.getElementsByClassName("modular")[5].className="modular active";
+			}
+		}
+
+		function yidong(yuansu,b){
+			cancelAnimationFrame(yuansu.time);
+		  	yuansu.time =function (){
+		  		var weizhi = yuansu.scrollTop;
+		  		var bushu = Math.abs(weizhi-b)/8;
+		  		// var bushu = 40;
+		  		bushu = weizhi<b?Math.ceil(bushu)+2:-Math.ceil(bushu)-2;
+		  		weizhi +=bushu;
+		  		if(Math.abs(weizhi-b)>Math.abs(bushu)){
+		  			document.documentElement.scrollTop=weizhi;
+		  			requestAnimationFrame(yuansu.time);
+		  		}else{
+		  			document.documentElement.scrollTop=b;
+		  		}
+		  	};
+		  	requestAnimationFrame(yuansu.time);
+		}  
+		var li = document.getElementsByClassName("leibiao")[0].getElementsByTagName("li");
+		for(var a=0,t=li.length;a<t;a++){
+			li[a].ranking = a;
+			li[a].onclick = function (){
+				var modular = document.getElementsByClassName("modular")[this.ranking];
+				modular.className="modular active";
+				var gao = modular.offsetTop+doc.offsetHeight-72;
+				console.log(gao);
+				yidong(document.documentElement,gao);
+			};
+		}
+		document.getElementsByClassName("anniu")[0].onclick = function(){li[0].click()}
+		document.getElementsByClassName("anniu")[1].onclick = function(){li[4].click()}
+
+
+	})()
+</script>
+
+</html>
