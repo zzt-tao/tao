@@ -98,3 +98,13 @@ console.log("123");
 
 [![图片链接](http://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/a8773912b31bb051ba374179377adab44aede054.jpg)](http://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/a8773912b31bb051ba374179377adab44aede054.jpg)
 
+
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
