@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>个人简历</title>
-	<link rel="stylesheet" href="./css/head.css">
+	<link rel="stylesheet" href="../css/head.css">
 	<link rel="stylesheet" href="./css/zhuti.css">
 	<style>
 		html,body{
@@ -59,7 +59,7 @@
 			<div></div>
 		</div>
 		<div class="head_text">
-			<img class="me_img donghua" src="./img/004.jpg"></img>
+			<img class="me_img donghua" src="../img/logo.jpg"></img>
 			<div class="donghua" style="font-size: 3.5vw;animation-delay:0.4s;">你 好, 我 叫 张 梓 涛</div>
 			<div class="donghua" style="font-size: 1.6vw;font-weight: 100;margin:1% auto;animation-delay:0.8s;">一位极具潜力的前端工程师</div>
 			<div style="margin-top: 2.5%;animation-delay:1.2s;" class="donghua"> 
@@ -87,7 +87,7 @@
 
 		<div class="modular">
 			<div class="modular_head">关于我</div><hr>
-			<img class="me_img donghua" src="./img/004.jpg"></img>
+			<img class="me_img donghua" src="../img/logo.jpg"></img>
 			<div class="jianjie donghua">
 				<p style="text-indent:2em;">
 				我叫张梓涛，20岁，出生在广东省汕头市。毕业于广东农工商职业技术学院，就读计算机网络专业。在学校里，我开始接触网页
@@ -100,15 +100,15 @@
 			<div class="modular_head">求职意向</div>
 			<div class="job_wanted">
 				<div class="intention">
-					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<img src="../img/bg1.jpg" alt="" style="width:80%;">
 					<div>网页前端开发</div>
 				</div>
 				<div class="intention">
-					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<img src="../img/bg1.jpg" alt="" style="width:80%;">
 					<div>H5页面制作</div>
 				</div>
 				<div class="intention">
-					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<img src="../img/bg1.jpg" alt="" style="width:80%;">
 					<div>微信小程序开发</div>
 				</div>
 			</div>
@@ -140,19 +140,19 @@
 			<div class="modular_head">技术掌握</div>
 			<div class="jishu">
 				<div class="master">
-					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<img src="../img/bg1.jpg" alt="" style="width:80%;">
 					<div>HTML5+CSS3</div>
 				</div>
 				<div class="master">
-					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<img src="../img/bg1.jpg" alt="" style="width:80%;">
 					<div>Vue</div>
 				</div>
 				<div class="master">
-					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<img src="../img/bg1.jpg" alt="" style="width:80%;">
 					<div>微信小程序开发</div>
 				</div>
 				<div class="master">
-					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<img src="../img/bg1.jpg" alt="" style="width:80%;">
 					<div>Jq、Bootstrap、Layui</div>
 				</div>
 			</div>
@@ -162,11 +162,11 @@
 			<div class="modular_head">我的作品</div>
 			<div class="job_wanted">
 				<div class="intention">
-					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<img src="../img/bg1.jpg" alt="" style="width:80%;">
 					<div>觅酷平台</div>
 				</div>
 				<div class="intention">
-					<img src="./img/001.jpg" alt="" style="width:80%;">
+					<img src="../img/bg1.jpg" alt="" style="width:80%;">
 					<div>酷云</div>
 				</div>
 			</div>
@@ -185,7 +185,7 @@
 		var i=1;
 		var index = setInterval(function(){ 
 			i++;
-			head_img.style.backgroundImage = "url('./img/00"+i+".jpg')";
+			head_img.style.backgroundImage = "url('../img/bg"+i+".jpg')";
 			i=i<3?i:0;
 		},10000);
 		setTimeout(function(){
