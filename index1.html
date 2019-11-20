@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>md</title>
+</head>
+<body>
+	<div id="content"></div>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>
+// $(document).ready(function(){
+//     $.ajax({
+//         url: "./readme.md",
+//         type: "get",
+//         dataType: "jsonp", //指定服务器返回的数据类型
+//         success: function (data) {
+//             console.log(data);
+//         }
+//     });
+// });
+$.get("./readme.md", function(response, status, xhr){
+$("#content").html(marked(response));
+});
+</script>
+</html>
